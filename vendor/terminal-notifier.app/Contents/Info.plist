@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>terminal-notifier</string>
 	<key>CFBundleIconFile</key>
-	<string>Terminal</string>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>sococo.terminal-notifier</string>
 	<key>CFBundleInfoDictionaryVersion</key>
