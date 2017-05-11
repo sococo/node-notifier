@@ -57,7 +57,12 @@ NotificationCenter.prototype.notify = function(options, callback) {
     options,
     function() {
       clearTimeout(timeout);
-      callback.apply(null, arguments);
+      try {
+        callback.apply(null, arguments);
+      }
+      catch (e) {
+        console.log(e);
+      }
     },
     function(data) {
       if (activeId !== id) return false;
